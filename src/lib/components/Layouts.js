@@ -8,6 +8,7 @@ import korean from '../layouts/korean';
 import russian from '../layouts/russian';
 import spanish from '../layouts/spanish';
 import thai from '../layouts/thai';
+import numeric from '../layouts/numeric'
 
 class SimpleKeyboardLayouts {
 
@@ -22,7 +23,8 @@ class SimpleKeyboardLayouts {
       korean,
       russian,
       spanish,
-      thai
+      thai,
+      numeric
     };
 
     return languages[lang];
