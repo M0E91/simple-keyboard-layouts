@@ -1,5 +1,5 @@
 const numeric = {
-  default : ["1 2 3", "4 5 6", "7 8 9", "- 0 {bksp}"]
+  default : ["{numpad1} {numpad2} {numpad3}", "{numpad4} {numpad5} {numpad6}", "{numpad7} {numpad8} {numpad9}", "{numpaddecimal} {numpad0} {backspace}"]
 }
 
 export default numeric;
